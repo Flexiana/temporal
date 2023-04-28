@@ -1,6 +1,6 @@
 # Temporal
 
-Temporal is a testing library inspired by "Temporal Logic":[https://github.com/Flexiana/temporal]
+Temporal is a testing library inspired by [Temporal Logic](https://github.com/Flexiana/temporal)
 
 An ideal use case is for testing cooperation of systems in time, even running on different computers (like microservices, SOA).
 
