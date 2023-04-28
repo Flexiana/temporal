@@ -275,6 +275,17 @@ You can easily create your own combinators. Below are current combinators Tempor
   (some #(= % event-a) (rest timeline)))
 ```
 
+## TODO
+
+* make integration with clojure.test easier (0.3)
+* provide base_url & port as a parameter everywhere (0.4)
+* consider adding not only event to the timeline, but also a service so assertions can be made on a service too (0.5)
+* write tests for all combinators (0.6)
+* test it with our services and improve usability (0.7)
+* consider a generator of tests based on temporal-logic-like spec (temporal specs -> Instaparse -> tests) (0.8)
+* make parallel running of more tests easier (0.9)
+* document properly (1.0)
+
 ## License
 
 Copyright © 2023
